@@ -25,6 +25,11 @@ html {
     color: white;
 }
 
+.hero-text p {
+    text-align: right;
+}
+
+
 .navbar {
     background-color: #284177;
     overflow: hidden;
