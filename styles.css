@@ -1,18 +1,18 @@
 body,
 html {
     height: 100%;
+    margin:0;
 }
 
 
 .hero-image {
    
-    background-image:url('media/edwardlear.jpg');
-    height: 30%;
+    background-image:url('media/Background.png');
+    height: 95%;
  
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 
@@ -25,13 +25,10 @@ html {
     color: white;
 }
 
-.hero-text p {
-    text-align: right;
-}
-
 
 .navbar {
-    background-color: #284177;
+    background-color: #8FC0A9;
+    color:black;
     overflow: hidden;
 }
 
@@ -40,7 +37,7 @@ html {
     display: flex;
     justify-content: center;
     display: block;
-    color: #ede8e4;
+    color: black;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
