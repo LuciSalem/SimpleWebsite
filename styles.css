@@ -9,7 +9,6 @@ html {
    
     background-image:url('media/Background.png');
     height: 95%;
- 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,6 +16,8 @@ html {
 
 
 .hero-text {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 25px;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -27,9 +28,12 @@ html {
 
 
 .navbar {
+  font-family: "Lucida Console", "Courier New", monospace;
     background-color: #8FC0A9;
     color:black;
     overflow: hidden;
+    padding-left: 25%;
+    padding-right: 30%;
 }
 
 .navbar a {
@@ -40,7 +44,7 @@ html {
     color: black;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
   }
 
 .navbar a:hover {
@@ -49,13 +53,6 @@ html {
   }
 
   .navbar a.current {
-    background-color: #006bbd;
+    background-color: #c8d5b9;
     color: white;
   }
-/* colour palette to use:
-dark blue: #284177
-med blue: #006bbd
-light blue: #83ceec
-white: #ede8e4
-brownish: #c2afa8
-*/
