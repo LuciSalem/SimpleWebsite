@@ -76,8 +76,22 @@ html {
 
 /* ---------general look of pages---------- */
 
+.column h1 {
+  font-size: 20px;
+  color: #36454F;
+}
 
-p {
+.column p {
+  font-size: 14px;
+ color: #36454F;
+}
+
+.column2 h1 {
+  font-size: 20px;
+  color: #36454F;
+}
+
+.column2 p {
   font-size: 14px;
  color: #36454F;
 }
